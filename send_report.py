@@ -1,6 +1,6 @@
 # =============================================================================
 # Author: Mustafa Nassar 
-# Version: 1.3
+# Version: 3.0
 # This script demonstrates how to send an email with an attachment using the Microsoft Graph API.
 #
 # Description:
