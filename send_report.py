@@ -30,15 +30,15 @@ import logging
 # CONFIGURATION BLOCK
 # ====================
 # Azure AD App Credentials
-CLIENT_ID = "915a5ce2-9986-4540-a5a7-7caa4378052e"  # Your Azure App Client ID
+CLIENT_ID = "915a5ce2-9346-4120-asa7-7caa4378052e"  # Your Azure App Client ID
 CLIENT_SECRET = "WWa;sdlfkajd;sfjad;fja;ldfY"  # Your Azure App Secret
-TENANT_ID = "5d23882c-d9f0-4e2e-84a6-0f290d7fbdce"  # Your Azure Tenant ID
+TENANT_ID = "5d223e2382c-d230-4e2e-84a6-02390537fbdce"  # Your Azure Tenant ID
 AUTHORITY = f"https://login.microsoftonline.com/{TENANT_ID}"
 SCOPE = ["https://graph.microsoft.com/.default"]
 
 # Email Settings
-SENDER_EMAIL = "Reports@1590.eu"  # The email address of the sender
-RECIPIENT_EMAIL = "mnassar365@outlook.com"  # The email address of the recipient
+SENDER_EMAIL = "sender@domain.local"  # The email address of the sender
+RECIPIENT_EMAIL = "recipient@domain.de"  # The email address of the recipient
 EMAIL_SUBJECT = "Your Requested Report from OnPrem"  # Email subject
 EMAIL_BODY = "Please find the attached report."  # Email body content
 
